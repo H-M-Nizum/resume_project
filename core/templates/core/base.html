@@ -38,8 +38,8 @@
                 </div>
                 <hr class="border-light border-3">
                 <nav class="nav flex-column text-center">
-                    <a class="nav-link" href="">Home</a>
-                    <a class="nav-link" href="">Services</a>
+                    <a class="nav-link" href="{% url 'home' %}">Home</a>
+                    <a class="nav-link" href="{% url 'services' %}">Services</a>
                     <a class="nav-link" href="">Skill</a>
                     <a class="nav-link" href="">Contact</a>
                 </nav>
@@ -55,6 +55,45 @@
     </div>
 
    </section>
+
+   <!-- footer -->
+   <footer class="container-fluid bg-secondary border-top">
+        <div class="row  ms-3 mt-5">
+            <div class="col-sm-4">
+                <h3 style="color: white;">About Us</h3>
+                <p class="text-black" style="text-align: justify;">I am Hosna Mobarak Nizum. I have completed my B.Sc in Computer Science & Engineering at Islamic University, Bangladesh.</p> 
+            </div>
+            <div class="col-sm-4 text-center">
+                <h3 style="color: white;">Get in touch</h3> 
+                    <ul class="list-unstyled text-black" style="color: rgb(217, 213, 213);">
+                        <li><i class="fa fa-home mr-2"></i> Kushtia, Bangladesh</li> 
+                        <li><i class="fa fa-phone mr-2"></i> (+88) 01981251861</li> <li><i class="fa fa-envelope-open-o mr-2"></i><a class="text-black" href="">hmnizum1714032@gmail.com</a></li>
+                    </ul> 
+            </div>
+            <div class="col-sm-4">
+                <h3 style="color: white;">Follow Us</h3> 
+                <ul class="list-unstyled d-flex gap-3 text-decoration-none" >
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li> 
+
+                    <li><a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-square-twitter"></i></a></li>
+
+                    <li><a href="https://www.instagram.com/?hl=bn" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class=" text-black pb-5">
+            <div class="container">
+                <hr >
+            </div>
+            <div class="text-center">
+                <di>
+                    <p>Copyright © 2024 H.M.Nizum. All Right Reserved.</p>
+                </di>
+            </div> 
+        </div>
+   </footer>
 
 
 
